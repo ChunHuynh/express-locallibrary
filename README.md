@@ -1,2 +1,2 @@
 # express-locallibrary
-MDN "Express server-side website programming" tutorial
+Repository to follow along the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) for server-side website programming.
