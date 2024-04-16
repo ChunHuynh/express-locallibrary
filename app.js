@@ -4,9 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const debug = require('debug')('express-locallibrary:app');
-if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
-}
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -18,7 +16,7 @@ const helmet = require('helmet');
 const app = express();
 
 // Set up rate limiter: maximum of twenty requests per minute
-app.set('trust proxy', 3);
+app.set('trust proxy', 1);
 const RateLimit = require("express-rate-limit");
 const limiter = RateLimit({
   windowMs: 1 * 10 * 1000, // 10 seconds
