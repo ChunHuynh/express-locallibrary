@@ -21,5 +21,7 @@ In this series of tutorial we will:
 For this project, we use a ***MongoDB*** database to access our library data.<br>
 The cloud-hosted sandbox database ***MongoDB Atlas*** is used to set up the database.<br>
 ***Mongoose*** is used to connect and access the database as ODM in our code.
-**<p align=center>UML diagram</p>**
-![UML diagram](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose/library_website_-_mongoose_express.png)
+<div align="center">
+  <h3>UML Diagram</h3>
+  <img src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose/library_website_-_mongoose_express.png" alt="UML Diagram">
+</div>
